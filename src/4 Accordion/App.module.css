@@ -1,0 +1,33 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #e65c00, #F9D423);
+}
+
+.parent .box {
+    width: 600px;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 30px black;
+    margin: 50px 0px;
+    padding: 10px 20px;
+}
+
+.parent .box h3 {
+    font-size: 40px;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-bottom: 70px;
+}
